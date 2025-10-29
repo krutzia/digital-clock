@@ -1,0 +1,31 @@
+/* style.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1f29, #3e3f4e);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.clock {
+  background: #222;
+  padding: 40px 80px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#time {
+  font-size: 70px;
+  letter-spacing: 3px;
+}
+
+#date {
+  font-size: 20px;
+  color: #ccc;
+  margin-top: 10px;
+}
+
